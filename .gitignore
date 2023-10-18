@@ -22,3 +22,24 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+.vscode/settings.json
+desafio-projeto-java/HELP.md
+desafio-projeto-java/mvnw
+desafio-projeto-java/mvnw.cmd
+
+desafio-projeto-java/.vscode/settings.json
+desafio-projeto-java/src/main/resources/application.properties
+desafio-projeto-java/target/classes/application.properties
+desafio-projeto-java/src/main/resources/application.properties
+desafio-projeto-java/src/main/resources/application.properties
+desafio-projeto-java/src/main/resources/application.properties
+desafio-projeto-java/target/desafio-projeto-java-0.0.1-SNAPSHOT.jar.original
+desafio-projeto-java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+desafio-projeto-java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+desafio-projeto-java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+desafio-projeto-java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+desafio-projeto-java/target/surefire-reports/TEST-dio.desafioprojetojava.DesafioProjetoJavaApplicationTests.xml
+desafio-projeto-java/target/surefire-reports/dio.desafioprojetojava.DesafioProjetoJavaApplicationTests.txt
+desafio-projeto-java/target/maven-archiver/pom.properties
+desafio-projeto-java/src/main/resources/application.properties
+desafio-projeto-java/src/main/resources/application.properties

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <ul>
+        <li th:each="task : ${tasks}">
+            <span th:text="${task.name}"></span>
+            <a th:href="@{'/tasks/remove/' + ${task.id}}">Remover</a>
+        </li>
+    </ul>
+    <hr>
+    <h2>Tarefas Concluídas</h2>
+    <a th:href="@{'/tasks/completed'}">Mostrar Tarefas Concluídas</a>
+    <hr>
+    <h2>Tarefas Não Concluídas</h2>
+    <a th:href="@{'/tasks/not-completed'}">Mostrar Tarefas Não Concluídas</a>
+    <hr>
+    <h2>Adicionar Nova Tarefa</h2>
+    <form th:action="@{'/tasks'}" th:object="${newTask}" method="post">
+        <input type="text" th:field="*{newTask.name}" placeholder="Descrição">
+        <input type="submit" value="Add">
+    </form>
+</body>
+</html>
